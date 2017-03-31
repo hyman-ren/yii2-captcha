@@ -56,7 +56,7 @@ class MyCaptchaAction extends CaptchaAction
     private function _writeNoise($image) {
        $codeSet = '012345678abcdefhijklmnpqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
        $len=strlen($codeSet)-1;
-       $path = Yii::getAlias('@yii/captcha/ttfs');
+       $path = __dir__ . DIRECTORY_SEPARATOR . 'ttfs' . DIRECTORY_SEPARATOR;
        for($i = 0; $i < $this->disturbCharCount; $i++){
            //杂点颜色
            $noiseColor = imagecolorallocate($image, mt_rand(136,225), mt_rand(136,225), mt_rand(136,225));
