@@ -3,6 +3,7 @@
     "type": "yii2-extension",
     "description": "The My diy captcha for the Yii framework 2.0",
     "keywords": ["yii2", "captcha"],
+    "version":"0.1.0",
     "license": "MIT",
     "support": {
         "issues": "https://github.com/hyman-ren/yii2-captcha/issues",
