@@ -8,6 +8,7 @@ use yii\base\InvalidConfigException;
 
 class MyCaptchaAction extends CaptchaAction
 {
+    public $disturbCharCount=2;
 
     protected function renderImageByGD($code)
     {
