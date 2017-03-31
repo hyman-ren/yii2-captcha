@@ -1,0 +1,26 @@
+{
+    "name": "hyman-ren/yii2-captcha",
+    "type": "yii2-extension",
+    "description": "The My diy captcha for the Yii framework 2.0",
+    "keywords": ["yii2", "captcha"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/hyman-ren/yii2-captcha/issues",
+        "wiki": "https://github.com/hyman-ren/yii2-captcha/wiki",
+        "source": "https://github.com/hyman-ren/yii2-captcha"
+    },
+    "authors": [
+        {
+            "name": "hyman",
+            "email": "hyman@an2.net"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "hyman\\captcha\\": ""
+        }
+    }
+}
